@@ -71,7 +71,7 @@ To enable SSH using the raspi-config tool:
 
 1. Open the terminal on your Raspberry Pi and run the tool by typing:
 
-  sudo raspi-config
+    sudo raspi-config
 
 A BIOS-looking raspi-config tool loads.
 
@@ -92,8 +92,8 @@ The final option to enable SSH on Raspberry Pi is to start the systemctl service
 
 To do so, load the terminal and run these two commands:
 
-  sudo systemctl enable ssh
-  sudo systemctl start ssh
+     sudo systemctl enable ssh
+     sudo systemctl start ssh
   
 The ssh service is now both enabled and started.
 
@@ -103,7 +103,7 @@ Now that you enabled SSH on your Raspberry Pi, you can use SSH to connect from a
 
 Before we can continue, you need to find the IP address of your device. While you are logged in the Raspbian system, open the terminal and run this command:
 
-  hostname -l
+      hostname -l
   
 Alternatively, you can run theifconfig or ip a command to find the IP address. We prefer using the hostname command as it only displays the address without other network information.
 
@@ -112,7 +112,7 @@ Using SSH to remotely manage a Raspberry Pi device is the same as managing any o
 
 To connect via SSH to your Raspberry Pi from the terminal, use this command:
 
-  ssh pi@[raspberrypi_ip_address]
+       ssh pi@[raspberrypi_ip_address]
   
  # Note: 
  Pi is the default user account. If you use another account name, type it in instead of Pi. Use your device's IP address identified in the previous step.
@@ -133,7 +133,7 @@ Since all Raspbian installations come with a default account and password, it is
 
 1. To do so, run the raspi-config tool from the terminal on your device:
 
-  sudo raspi-config
+       sudo raspi-config
   
 2. Select the Change User Password option.
 Follow the instructions to change the password. Your Raspberry Pi is now ready and more secure for SSH access.
