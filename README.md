@@ -29,7 +29,7 @@ For this task, you need to create an empty ssh file on another machine. We will 
 
 3. Navigate to the boot folder. This is the root folder of your SD card. Boot is the default volume name when you install a Raspbian system on an SD card. If you are on a Windows machine, use any file manager, such as Explorer. On macOS or Linux, open a terminal window and type:
 
-  cd /Volumes/boot
+       cd /Volumes/boot
 
 Note that the name of your SD card can be something other than “boot”. If it is, open the root volume folder and proceed with the next steps.
 
