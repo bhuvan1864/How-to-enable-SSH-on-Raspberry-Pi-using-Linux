@@ -153,5 +153,9 @@ Follow the instructions to change the password. Your Raspberry Pi is now ready a
 # Conclusion
 Now you know how to enable SSH on Raspberry Pi. This tutorial has shown you how to enable the service even if you do not have a monitor and keyboard connected to your Raspberry Pi. If you have the peripherals connected, then you can choose the method that suits you best.
 
+Until next time...
+
+-B
+
 
 
