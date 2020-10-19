@@ -37,6 +37,8 @@ Note that the name of your SD card can be something other than “boot”. If it
 
 * On Windows, right-click anywhere in the boot volume’s white space and select New > Text Document. Delete the .txt extension before you hit Enter. If Windows Explorer on your computer does not show file extensions, click View and enable File name extensions in the menu bar.
 
+![windows-file-extensions](https://user-images.githubusercontent.com/67831210/96450430-d3bdde80-1233-11eb-874f-17299b3e0489.png)
+
 * On Mac or Linux, run the touch command while in the boot directory to create a blank ssh file:
 touch shh
 
@@ -55,9 +57,13 @@ Once your device boots up:
 
 2. Select Preferences > Raspberry Pi Configuration.
 
+![raspberry-pi-configuration-preferences-gui](https://user-images.githubusercontent.com/67831210/96450494-ea643580-1233-11eb-95bb-e609dc2ce3f2.png)
+
 3. Navigate to the Interfaces tab in the configuration window.
 
 4. Enable SSH in the second line.
+
+![raspberry-pi-configuration-interaface-gui](https://user-images.githubusercontent.com/67831210/96450574-04057d00-1234-11eb-9be6-1730c4358a13.png)
 
 5. Click OK to save the changes.
 
@@ -77,7 +83,11 @@ A BIOS-looking raspi-config tool loads.
 
 2. Use the arrows on your keyboard to select Interfacing Options.
 
+![raspi-config-interfacing-options](https://user-images.githubusercontent.com/67831210/96450613-1384c600-1234-11eb-9ec0-8933b07b1147.png)
+
 3. Select the P2 SSH option on the list.
+
+![raspi-config-ssh](https://user-images.githubusercontent.com/67831210/96450681-23040f00-1234-11eb-9401-3af30c1cee7a.png)
 
 4. Select <Yes> on the “Would you like the SSH server to be enabled?” prompt.
 
@@ -122,6 +132,7 @@ To connect via SSH to your Raspberry Pi from the terminal, use this command:
 Windows users can SSH into Raspberry Pi using PuTTY.
 
 Start the tool and enter the IP address of your device. Make sure SSH is selected, and the port set to 22.
+![ssh-putty-raspberry-pi](https://user-images.githubusercontent.com/67831210/96450735-3616df00-1234-11eb-9632-8259fc3386c7.png)
 Click Open to start a new session. Enter your Raspberry Pi’s account username and password.
 
 # Securing Raspberry Pi SSH
@@ -136,6 +147,7 @@ Since all Raspbian installations come with a default account and password, it is
        sudo raspi-config
   
 2. Select the Change User Password option.
+![change-raspberry-pi-password](https://user-images.githubusercontent.com/67831210/96450798-4af37280-1234-11eb-85c3-63a0dc417a8c.png)
 Follow the instructions to change the password. Your Raspberry Pi is now ready and more secure for SSH access.
 
 # Conclusion
