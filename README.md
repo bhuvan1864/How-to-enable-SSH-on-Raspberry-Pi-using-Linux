@@ -63,7 +63,7 @@ Once your device boots up:
 
 That’s it. Your Raspberry Pi is now accessible via SSH. Make sure the device is connected to the internet before trying to establish an SSH session.
 
-Enable SSH on Raspberry Pi in the Terminal
+# Enable SSH on Raspberry Pi in the Terminal
 If you are used to configuring your system from the terminal, you can choose one of the two options below.
 
 Enabling SSH with raspi-config
@@ -71,7 +71,8 @@ To enable SSH using the raspi-config tool:
 
 1. Open the terminal on your Raspberry Pi and run the tool by typing:
 
-sudo raspi-config
+  sudo raspi-config
+
 A BIOS-looking raspi-config tool loads.
 
 2. Use the arrows on your keyboard to select Interfacing Options.
